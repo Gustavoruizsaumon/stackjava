@@ -1,0 +1,12 @@
+.box {
+
+background-color: blue;    
+height: 250px;
+width: 250px;
+border: 10px solid black;
+padding: 65px;
+margin: 20px;
+box-sizing: border-box;
+color:beige;
+
+}

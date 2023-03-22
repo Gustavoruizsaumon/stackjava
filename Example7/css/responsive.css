@@ -1,0 +1,76 @@
+.hamburger {
+display: none;
+cursor: pointer;
+float: right;
+background: none;
+border: none;
+}
+
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+
+
+
+}
+
+/* media query para tablet*/
+
+@media screen and (max-width: 768px) 
+{
+  
+    nav ul 
+    {
+
+        display: none;
+
+    }
+
+    nav .hamburger 
+    {
+        display: block;
+
+    }
+}
+
+
+/* media query para smartphone*/
+
+@media screen and (max-width: 480px) 
+{
+    nav ul 
+    {
+        display: none;
+    }
+    .logo img 
+    {
+        height: 20px;
+    }
+    header 
+    {
+        padding: 15px;
+    }
+}
+/*Esrilos para el menu de navegacion*/
+.mobile-nav 
+{
+    display: block;
+    background-color: #333333;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+}
+
+.mobile-nav li 
+{
+    float: none;
+    margin: 10px 0;
+    text-align: center;
+    /*margin: 10px 0 10px 0
+    top  rigth botom letf*/
+}
