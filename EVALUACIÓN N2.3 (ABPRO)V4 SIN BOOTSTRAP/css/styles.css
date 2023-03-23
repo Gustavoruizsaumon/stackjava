@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  width: auto;
+  height: 70px;
+  background-color: #0042fd;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+  margin: 25px 4px;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+  margin: 0 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #76b900;
+}
+
+.logo {
+  float: left;
+  margin: 8px 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  float: right;
+  margin: 23px 4px;
+  background: none;
+  border: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+}
+
+header {
+  padding: 15px;
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+.titulo {
+  color: #0042fd;
+}
+
+main {
+  margin: 0 auto;
+  width: 80%;
+  min-height: 570px;
+}
+
+.nosotros {
+  text-align: center;
+}
+
+
+.tituloseccion {
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+  background-color: #85ec2a;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 10px 25px;
+}
+
+.nosotros p {
+  padding: 10px 80px;
+  text-align: justify;
+}
+
+.descripcion-img {
+  margin: 20px;
+  width: 250px;
+  height: 250px;
+}
+.galeria {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box {
+  padding: 30px;
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
+
+.titulo-galeria {
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+  background-color: #85ec2a;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 10px 25px;
+}
+
+.imagen {
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #0042fd;
+  color: white;
+  text-align: center;
+  height: 50px;
+  padding: 15px 0;
+  border: 1px solid grey;
+  margin-top: 150px;
+  
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  float: left;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input,
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  resize: none;
+}
+
+textarea {
+  height: 150px;
+}
+
+.btn-contacto {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* media query para smartphone*/
+@media screen and (max-width: 600px) {
+  nav ul {
+    display: none;
+  }
+
+  nav .hamburger {
+    display: block;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .nosotros p {
+    padding: 10px 20px;
+    text-align: justify;
+  }
+
+  .box {
+    padding: 10px;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .imagen {
+    width: 150px;
+    height: 150px;
+  }
+
+  .logo img 
+  {
+
+      height: 25px;
+    
+  }
+
+  nav
+    {
+
+      height: 50px;
+    }
+
+}
